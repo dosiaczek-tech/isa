@@ -7,10 +7,10 @@ class DoctorService {
     DoctorService() {
         this.doctors.add(new Doctor("Adam", "Lecz"));
         this.doctors.add(new Doctor("Marta", "KOwalska"));
-        this.doctors.add(new Doctor("Marta", "KOwalska"));
         this.doctors.add(new Doctor("Marcin", "Leczniczny"));
+        this.doctors.add(new Doctor("Marcin", "Nowak"));
         this.doctors.add(new Doctor("Marcin", "2"));
-        this.doctors.add(new Doctor("Marcin", "2"));
+        this.doctors.add(new Doctor("Beata", "Kozidrak"));
     }
 
     List<Doctor> getAll() {
